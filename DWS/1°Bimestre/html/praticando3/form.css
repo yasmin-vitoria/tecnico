@@ -1,0 +1,89 @@
+
+.destino{
+    border:2px solid black;
+    border-radius: 15px;
+    width: 220px;
+    margin: auto;
+    padding: 2vw;
+    margin-top: 20%;
+    text-align: center;
+    font-family: 'Gloock', serif;
+    color: rgba(203, 117, 214, 0.699);
+    background-color: rgba(31, 30, 30, 0.37)
+}
+.a1{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid rgb(255, 129, 129, 0.699);
+    border-top: 2px solid rgb(128, 70, 223, 0.699);
+    border-radius: 15px;
+    width: 800px;
+    height: 530px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 130px;
+    font-family: 'Gloock', serif;
+    color: rgba(255, 129, 129);
+    background-color: rgba(31, 30, 30, 0.37);
+}
+.sobre{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(to right, rgb(255, 129, 129) 0%, rgba(128, 70, 223, 0.699));
+}
+.btn{
+    border: 2px solid black;
+    color: rgba(0, 0, 0, 0.712) ;
+    background-color:  rgba(128, 70, 223, 0.699) ;
+    font-size: large;
+    font-family: 'Gloock', serif;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.fa1825cb6275d4cfe46580505e72a4b4?rik=vW4r2nVvIydmZg&pid=ImgRaw&r=0);
+    background-size: 100%;
+}
+.esquerda{
+    width: 400px;
+    display: inline-flex;
+    float: left;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.direita{
+    width: 400px;
+    float: right;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5px;
+}
+h1{
+    text-align: center;
+}
+.btncentro1{
+    width: 275px;
+    margin-left: 275px;
+    margin-right: auto;
+    display: flex;
+}
+html{
+    height: 100%;
+}
+select, option{
+    color:black;
+}

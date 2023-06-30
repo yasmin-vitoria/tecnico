@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@600 & display=swap');
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', 'sans-serif';
+    background: linear-gradient(-45deg,#f76262,#216583,#65c0ba,#cffdf8);
+   
+ }
+
+ #form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px;
+    width: min-content;
+    align-items: center;
+    color:#2b344b;
+    box-shadow: 5px 5px 10px red, -5px 0 darkblue;
+
+ }
+    
+.h2{
+    text-align: center;
+}
+.title{ 
+    font-size:  0.9em;
+    margin-bottom: 10%;
+}
+
+.input{
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #6f7e8a solid;
+    padding: 5px;
+    margin:0px 0px 12px -5px;
+
+}
+
+/*
+Outra opção de grandient
+ background:linear-gradient(-45deg,#ffce51,#ff7253,#fd5754);
+    background: linear-gradient(-45deg, rgba(128,206,214,1), rgb(137, 229, 188),  rgba(213,244,230,1));
+    
+*/
+
+label{    
+    width: 150px;
+    display: inline-block;
+}
+
+h2{border-bottom: 2px  #36486b solid;}
+
+.btn-info{
+    font-size: 1,5em;
+    background: rgb(128,206,214);
+    background: linear-gradient(-45deg, rgba(128,206,214,1), rgb(137, 229, 188), rgba(213,244,230,1));
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #6f7e8a solid;
+    padding: 5px;
+    margin:0px 0px 12px -5px;
+
+}
+
+.btn-warning{
+    font-size: 1,5em;
+    background: rgb(128,206,214);
+    background: linear-gradient(-45deg, rgba(128,206,214,1), rgb(137, 229, 188), rgba(213,244,230,1));
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #6f7e8a solid;
+    padding: 5px;
+    margin:0px 0px 12px -5px;
+
+}

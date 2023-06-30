@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-arquiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+
+    <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="form.css">
+
+    </body>
+    <title> Formulário</title>
+</head>
+
+
+<body>
+
+
+    <div id="form">
+        <form action="" method="POST">
+
+            <div class="h2">
+                <h2>Formulário </h2>
+            </div>
+            <div>
+                <label for="username">Nome:</label>
+                <div class="input">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    <input type="text" id="username" name="name" placeholder="Nome completo" type="text" required><br>
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <div class="input">
+                        <i class="far fa-envelope" aria-hidden="true"></i>
+                        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" type="text"><br>
+                    </div>
+
+                    <div>
+                        <label for="tel">Telefone:</label>
+                        <div class="input">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <input type="tel" name="tel" id="tel" placeholder="(00)22444-3333" type="tel"><br>
+                        </div>
+
+                        <div>
+                            <label for="link">Endereço URL:</label>
+                            <div class="input">
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                                <input type="url" name="link" id="link" placeholder="link" type="text"><br>
+                            </div>
+
+                            <div>
+                                <label for="nota">Nota (0 a 10):</label>
+                                <div class="input">
+                                    <i class="far fa-star" aria-hidden="true"></i>
+                                    <input type="number" name="nota" id="nota"><br>
+                                </div>
+
+                                <div>
+                                    <label for="date">Data do Cadastro:</label>
+                                    <div class="input">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <input type="date" name="date" id="date"><br>
+                                    </div>
+
+                                    <div>
+                                        <input type="submit" class="btn btn-info" value="Gravar">
+                                        <input type="reset" class="btn btn-warning" value="Limpar">
+                                    </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+body{
+    background: whitesmoke;
+    font-family: Verdana;
+    margin: 0;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    padding:  30px;;
+    background:rgb(233, 227, 255);
+    margin: 0;
+    text-align: center;
+    border-bottom: 5px  #36486b solid;
+}
+
+.texto {
+    border-left: solid 3px black;
+    padding: 0px 1em;
+    text-align: justify;
+}
+
+.loja {
+    width: 400px;
+        
+    padding: 5rem;
+    margin: 4vh;
+    border-radius: 15px;
+    background-color: rgb(219, 210, 250);
+}
+
+.loja img{    
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    display:flex;
+    
+}
+
+.linha{
+    padding: 3px;
+    background-color:#36486b;
+    margin-bottom: 5pt;
+}
+
+.moço{
+    display: flex;
+    float: right;
+    width: 20vw;
+    margin: 2vw;
+}
+
+.letra{
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+}

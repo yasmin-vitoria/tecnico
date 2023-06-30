@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="a1">
+        <h1>Formulário de Cadastro</h1>
+        <form action="destino.html">
+            <div class="esquerda">
+
+                <label for="text">Nome:</label>
+                <input type="text" class="sobre" id="text" name="text" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" class="sobre" id="email" name="email" required><br>
+                
+                <label for="tel">Telefone:</label>
+                <input type="tel" class="sobre" id="tel" name="tel" required placeholder="(DD) XXXXX-XXXX"
+                    pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$"
+                    title="Digite o telefone no formato (DD)XXXXX-XXXX"><br>
+
+                <label for="text">CPF:</label>
+                <input type="text" class="sobre" id="text" name="text" required placeholder="XXX.XXX.XXX-XX"
+                    pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"><br>
+
+                <label for="date">Data de Cadastro:</label>
+                <input type="date" class="sobre" id="date" name="date" required><br>
+
+                <label for="url">Endereço URL:</label>
+                <input type="url" class="sobre" id="url" name="url"><br>
+
+            </div>
+
+            <div class="direita">
+
+                <label for="number">Nota(0-10):</label>
+                <input type="number" class="sobre" id="number" name="number" min="0" max="10" required><br>
+
+                <label for="cep">CEP:</label>
+                <input type="tel" class="sobre" id="cep" name="cep" required placeholder="XX.XXX-XXX"
+                    pattern="\d{2}\.\d{3}-\d{3}"><br>
+
+                <label for="local">Endereço:</label>
+                <input type="local" class="sobre" id="local" name="local" required placeholder="Rua, n° e bairro"><br>
+
+                <label for="escolha">Cidade:</label>
+                <select class="sobre" required>
+                    <option> </option>
+                    <option value="nepal">Nepal</option>
+                    <option value="irlanda">Irlanda</option>
+                    <option value="moscou">Moscou</option>
+                    <option value="seattle">Seattle</option>
+                    <option value="alasca">Alasca</option>
+                    <option value="yokahoma">Yokohoma</option>
+                </select><br>
+
+                <label for="foto">Selecione uma Foto de Perfil:</label>
+                <input type="file" class="sobre" id="foto" name="foto" accept="image/*"><br>
+
+                <label for="contrato">Contrato Assinado (EM PDF):</label>
+                <input type="file" class="sobre" id="contrato" name="contrato" accept=".doc, .pdf, .docx"><br>
+
+            </div>
+
+            <div class="btncentro1">
+
+                <input type="reset" class="btn" value="reset">
+                <input type="submit" class="btn" value="submit">
+
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
